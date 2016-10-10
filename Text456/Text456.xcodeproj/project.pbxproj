@@ -15,6 +15,7 @@
 		7161500D1DAB3D22003C2FD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7161500B1DAB3D22003C2FD5 /* LaunchScreen.storyboard */; };
 		716150181DAB3D22003C2FD5 /* Text456Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 716150171DAB3D22003C2FD5 /* Text456Tests.m */; };
 		716150231DAB3D22003C2FD5 /* Text456UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 716150221DAB3D22003C2FD5 /* Text456UITests.m */; };
+		716150321DAB3E47003C2FD5 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 716150311DAB3E47003C2FD5 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		7161501E1DAB3D22003C2FD5 /* Text456UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Text456UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		716150221DAB3D22003C2FD5 /* Text456UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Text456UITests.m; sourceTree = "<group>"; };
 		716150241DAB3D22003C2FD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		716150301DAB3E47003C2FD5 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		716150311DAB3E47003C2FD5 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				7161500B1DAB3D22003C2FD5 /* LaunchScreen.storyboard */,
 				7161500E1DAB3D22003C2FD5 /* Info.plist */,
 				71614FFD1DAB3D22003C2FD5 /* Supporting Files */,
+				716150301DAB3E47003C2FD5 /* Person.h */,
+				716150311DAB3E47003C2FD5 /* Person.m */,
 			);
 			path = Text456;
 			sourceTree = "<group>";
@@ -272,6 +277,7 @@
 			files = (
 				716150051DAB3D22003C2FD5 /* ViewController.m in Sources */,
 				716150021DAB3D22003C2FD5 /* AppDelegate.m in Sources */,
+				716150321DAB3E47003C2FD5 /* Person.m in Sources */,
 				71614FFF1DAB3D22003C2FD5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
