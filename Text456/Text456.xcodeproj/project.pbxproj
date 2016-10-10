@@ -16,6 +16,7 @@
 		716150181DAB3D22003C2FD5 /* Text456Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 716150171DAB3D22003C2FD5 /* Text456Tests.m */; };
 		716150231DAB3D22003C2FD5 /* Text456UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 716150221DAB3D22003C2FD5 /* Text456UITests.m */; };
 		716150321DAB3E47003C2FD5 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 716150311DAB3E47003C2FD5 /* Person.m */; };
+		716150351DAB4341003C2FD5 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 716150341DAB4341003C2FD5 /* Dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		716150241DAB3D22003C2FD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		716150301DAB3E47003C2FD5 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		716150311DAB3E47003C2FD5 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		716150331DAB4341003C2FD5 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		716150341DAB4341003C2FD5 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				71614FFD1DAB3D22003C2FD5 /* Supporting Files */,
 				716150301DAB3E47003C2FD5 /* Person.h */,
 				716150311DAB3E47003C2FD5 /* Person.m */,
+				716150331DAB4341003C2FD5 /* Dog.h */,
+				716150341DAB4341003C2FD5 /* Dog.m */,
 			);
 			path = Text456;
 			sourceTree = "<group>";
@@ -277,6 +282,7 @@
 			files = (
 				716150051DAB3D22003C2FD5 /* ViewController.m in Sources */,
 				716150021DAB3D22003C2FD5 /* AppDelegate.m in Sources */,
+				716150351DAB4341003C2FD5 /* Dog.m in Sources */,
 				716150321DAB3E47003C2FD5 /* Person.m in Sources */,
 				71614FFF1DAB3D22003C2FD5 /* main.m in Sources */,
 			);
@@ -504,6 +510,7 @@
 				716150291DAB3D22003C2FD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7161502A1DAB3D22003C2FD5 /* Build configuration list for PBXNativeTarget "Text456Tests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +519,7 @@
 				7161502C1DAB3D22003C2FD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7161502D1DAB3D22003C2FD5 /* Build configuration list for PBXNativeTarget "Text456UITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +528,7 @@
 				7161502F1DAB3D22003C2FD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
