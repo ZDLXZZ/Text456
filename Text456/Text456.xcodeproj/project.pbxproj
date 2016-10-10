@@ -17,6 +17,7 @@
 		716150231DAB3D22003C2FD5 /* Text456UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 716150221DAB3D22003C2FD5 /* Text456UITests.m */; };
 		716150321DAB3E47003C2FD5 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 716150311DAB3E47003C2FD5 /* Person.m */; };
 		716150351DAB4341003C2FD5 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 716150341DAB4341003C2FD5 /* Dog.m */; };
+		716150381DAB4410003C2FD5 /* Dog2.m in Sources */ = {isa = PBXBuildFile; fileRef = 716150371DAB4410003C2FD5 /* Dog2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		716150311DAB3E47003C2FD5 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		716150331DAB4341003C2FD5 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
 		716150341DAB4341003C2FD5 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		716150361DAB4410003C2FD5 /* Dog2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog2.h; sourceTree = "<group>"; };
+		716150371DAB4410003C2FD5 /* Dog2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				716150311DAB3E47003C2FD5 /* Person.m */,
 				716150331DAB4341003C2FD5 /* Dog.h */,
 				716150341DAB4341003C2FD5 /* Dog.m */,
+				716150361DAB4410003C2FD5 /* Dog2.h */,
+				716150371DAB4410003C2FD5 /* Dog2.m */,
 			);
 			path = Text456;
 			sourceTree = "<group>";
@@ -281,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				716150051DAB3D22003C2FD5 /* ViewController.m in Sources */,
+				716150381DAB4410003C2FD5 /* Dog2.m in Sources */,
 				716150021DAB3D22003C2FD5 /* AppDelegate.m in Sources */,
 				716150351DAB4341003C2FD5 /* Dog.m in Sources */,
 				716150321DAB3E47003C2FD5 /* Person.m in Sources */,
